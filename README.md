@@ -25,6 +25,7 @@ Este é um simples agente de keylogger em Python que captura as teclas pressiona
 2. Crie as configuracoes iniciais do node e instale-as
 ``` 
     npm init -y
+    npm install express
     npm install
 ```
 3. Rode o servidor
