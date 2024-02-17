@@ -34,19 +34,6 @@ app.post('/dados', (req, res) => {
 });
 
 
-// Rota para obter o último dado salvo
-// app.get('/ultimodado', (req, res) => {
-//     fs.readFile('dados.json', (err, data) => {
-//         if (err) {
-//             console.error(err);
-//             res.status(500).send('Erro ao ler os dados.');
-//             return;
-//         }
-
-//         const jsonData = JSON.parse(data);
-//         res.json(jsonData);
-//     });
-// });
 
 app.listen(PORT, () => {
     console.log(`🎃--Que a Colheita Comece ${PORT}--🎃`);
