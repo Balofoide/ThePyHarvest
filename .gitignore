@@ -2,3 +2,5 @@
 node_modules
 dados.json
 Crops.txt
+package.json
+package-lock.json
