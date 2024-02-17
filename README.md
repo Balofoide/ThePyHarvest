@@ -16,13 +16,13 @@ Este é um simples agente de keylogger em Python que captura as teclas pressiona
 
 ## Configuração
 
-1. Crie uma .env para o projeto
+1. Crie uma .env para o projeto e instale os requisitos
 ``` 
     python -m venv .env
     pip install -r requirements.txt
 
 ```
-2. Crie as configuracoes iniciais do node
+2. Crie as configuracoes iniciais do node e instale-as
 ``` 
     npm init -y
     npm install
