@@ -31,7 +31,6 @@ Este é um simples agente de keylogger em Python que captura as teclas pressiona
 3. Rode o servidor
 ```
     node Sow.js
-
 ```
 
 
