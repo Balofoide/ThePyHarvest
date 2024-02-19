@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import config from './config';
-import './ChatBox.css'; // Arquivo de estilos CSS para o ChatBox
+import './ChatBox.css'; 
 
 function App() {
   const [messages, setMessages] = useState([]);
@@ -13,7 +13,7 @@ function App() {
       try {
         const response = await axios.get(config.NODE_SERVER_URL + '/halloween');
         if (response.status === 200) {
-          setMessages(response.data.split('\n')); // Assume que cada mensagem está em uma nova linha
+          setMessages(response.data.split('\n')); 
           
         }
       } catch (error) {
@@ -42,7 +42,7 @@ function App() {
     <div className="chatapp-container">
       <div className="phone">
         <div className="header">
-          <h2 align='center'>This is Halloween</h2>
+          <h2 align='center'>The Harvest</h2>
         </div>
         <div className="messages">
           {messages.map((message, index) => (

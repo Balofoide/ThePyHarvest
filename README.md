@@ -25,7 +25,7 @@ Este é um simples agente de keylogger em Python que captura as teclas pressiona
 2. Crie as configuracoes iniciais do node e instale-as
 ``` 
     cd Sow
-    npm init -y
+    npm install cors
     npm install express
     npm install
 ```
@@ -38,6 +38,8 @@ Este é um simples agente de keylogger em Python que captura as teclas pressiona
 ```
     cd Sow/the_haverst_ui
     npm install
+    npm install web-vitals
+    npm install axios
     npm start
 ```
 

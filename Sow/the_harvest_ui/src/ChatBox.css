@@ -18,12 +18,12 @@
   }
   
   .messages {
-    max-width: 500px;
-    max-height: 700px; /* Altura máxima da área de mensagens */
+    width: 500px;
+    height: 600px; 
     overflow-y: auto;
     padding-right: 20px;
     margin-right: -10px;
-    scrollbar-color: #aaa #f0f0f0; /* Cor da barra de rolagem (pode ajustar conforme necessário) */
+    scrollbar-color: #aaa #f0f0f0; 
   }
   
   .message {
@@ -45,22 +45,16 @@
     align-items: center;
   }
   
-
-  
-  
-  /* Estilos específicos para navegadores WebKit (Chrome, Safari, etc.) */
-  /* Você pode adicionar estilos específicos para outros navegadores, como Firefox, conforme necessário */
-  
   .messages::-webkit-scrollbar {
-    width: 8px; /* Largura da barra de rolagem */
+    width: 8px; 
   }
   
   .messages::-webkit-scrollbar-track {
-    background: #f0f0f0; /* Cor de fundo da barra de rolagem */
+    background: #f0f0f0; 
   }
   
   .messages::-webkit-scrollbar-thumb {
-    background-color: #aaa; /* Cor do botão de rolagem */
-    border-radius: 4px; /* Borda do botão de rolagem */
+    background-color: #aaa;
+    border-radius: 4px; 
   }
   
