@@ -42,6 +42,14 @@ Este é um simples agente de keylogger em Python que captura as teclas pressiona
 ```
 
 
+### Docker
+
+Se quiser usar em docker, basta rodar o docker-compose
+
+```
+docker-compose up --build
+```
+
 
 ## Aviso Legal
 
