@@ -1,0 +1,66 @@
+.chatapp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .phone {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+  }
+  
+  .header {
+    padding-bottom: 23px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .messages {
+    max-width: 500px;
+    max-height: 700px; /* Altura máxima da área de mensagens */
+    overflow-y: auto;
+    padding-right: 20px;
+    margin-right: -10px;
+    scrollbar-color: #aaa #f0f0f0; /* Cor da barra de rolagem (pode ajustar conforme necessário) */
+  }
+  
+  .message {
+    background-color: #ff8e31;
+    box-shadow: 6px 6px 5px rgba(54, 11, 124, 0.11);
+    border-radius: 15px;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+  }
+  
+  .message-content {
+    word-wrap: break-word;
+    overflow: hidden;
+  }
+  
+  .input-box {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+
+  
+  
+  /* Estilos específicos para navegadores WebKit (Chrome, Safari, etc.) */
+  /* Você pode adicionar estilos específicos para outros navegadores, como Firefox, conforme necessário */
+  
+  .messages::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+  }
+  
+  .messages::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Cor de fundo da barra de rolagem */
+  }
+  
+  .messages::-webkit-scrollbar-thumb {
+    background-color: #aaa; /* Cor do botão de rolagem */
+    border-radius: 4px; /* Borda do botão de rolagem */
+  }
+  

