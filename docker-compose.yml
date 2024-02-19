@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  the_harvest_ui:
+    build: ./Sow/the_harvest_ui
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_SERVER_URL=http://the_harvest_server:3108 
+      - REACT_CLIENT_URL=http://the_harvest_ui:3000  # Defina a URL do servidor Node.js como variável de ambiente
+
+  the_harvest_server:
+    build: ./Sow
+    ports:
+      - "3108:3108"
+
+     

@@ -9,7 +9,7 @@ const PORT = 3108;
 
 app.use(bodyParser.json());
 const corsOptions = {
-    origin: 'http://localhost:3001', // Altere para a origem do seu aplicativo React
+    origin: process.env.REACT_CLIENT_URL || 'http://localhost:3000', // Altere para a origem do seu aplicativo React
     optionsSuccessStatus: 200 // Alguns navegadores podem retornar um status de erro se 204 for devolvido
   };
   

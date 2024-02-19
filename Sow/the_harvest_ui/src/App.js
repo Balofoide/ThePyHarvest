@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
+import config from './config';
 import './ChatBox.css'; // Arquivo de estilos CSS para o ChatBox
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
   useEffect(() => {
     const Seeds = async () => {
       try {
-        const response = await axios.get('http://172.88.1.63:3108/halloween');
+        const response = await axios.get(config.NODE_SERVER_URL + '/halloween');
         if (response.status === 200) {
           setMessages(response.data.split('\n')); // Assume que cada mensagem está em uma nova linha
           
